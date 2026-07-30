@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{c6e8f157-7162-4435-8ef0-31c0c09aa927}</ProjectGuid>
+    <RootNamespace>TAM</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\out\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\out\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\out\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\out\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg">
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <VcpkgManifestInstall>false</VcpkgManifestInstall>
+    <VcpkgAutoLink>false</VcpkgAutoLink>
+    <VcpkgApplocalDeps>false</VcpkgApplocalDeps>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;;NOMINMAX</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(VULKAN_SDK)\Include;$(VULKAN_SDK)\Include\vulkan;X:\TGRKIT\INCLUDE;C:\Users\temk\Desktop\TGRKIT\INCLUDE;.\src</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>tam.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\temk\Desktop\TGRKIT\LIB;$(VULKAN_SDK)\Lib;X:\TGRKIT\LIB</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;;NOMINMAX;TAM_MTH_USE_SIMD_MATR;TAM_MTH_USE_SIMD_VEC4</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(VULKAN_SDK)\Include;$(VULKAN_SDK)\Include\vulkan;X:\TGRKIT\INCLUDE;.\src;</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>tam.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(VULKAN_SDK)\Lib;X:\TGRKIT\LIB</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\systems\anim\render\res\fonts\tam_res_font.cpp" />
+    <ClCompile Include="src\systems\flat\tam_flat.cpp" />
+    <ClCompile Include="src\systems\flat\tam_flat_file.cpp" />
+    <ClCompile Include="src\systems\flat\tan_furniture.cpp" />
+    <ClCompile Include="src\tam.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\tam_main.cpp" />
+    <ClCompile Include="src\systems\anim\tam_anim.cpp" />
+    <ClCompile Include="src\systems\anim\render\tam_render.cpp" />
+    <ClCompile Include="src\systems\anim\render\tam_render_pipeline.cpp" />
+    <ClCompile Include="src\systems\anim\render\vulkan\tam_vlk_core.cpp" />
+    <ClCompile Include="src\systems\anim\render\vulkan\tam_vlk_instance.cpp" />
+    <ClCompile Include="src\systems\anim\render\vulkan\tam_vlk_physdevice.cpp" />
+    <ClCompile Include="src\systems\anim\render\vulkan\tam_vlk_device.cpp" />
+    <ClCompile Include="src\systems\anim\render\vulkan\tam_vlk_surface.cpp" />
+    <ClCompile Include="src\systems\anim\render\vulkan\tam_vlk_swapchain.cpp" />
+    <ClCompile Include="src\systems\anim\render\vulkan\tam_vlk_renderpass.cpp" />
+    <ClCompile Include="src\systems\anim\render\vulkan\tam_vlk_command.cpp" />
+    <ClCompile Include="src\systems\anim\render\vulkan\vulkan_debug\tam_vulkan_debug.cpp" />
+    <ClCompile Include="src\systems\anim\render\vulkan\vma\vk_vma.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\vulkan\vulkan_res\pipelines\tam_vlk_pipelines.cpp" />
+    <ClCompile Include="src\systems\anim\render\vulkan\vulkan_res\shaders\tam_vlk_shaders.cpp" />
+    <ClCompile Include="src\systems\anim\render\vulkan\vulkan_res\buffers\tam_vlk_buffers.cpp" />
+    <ClCompile Include="src\systems\anim\render\vulkan\vulkan_res\descriptors\tam_vlk_descriptors.cpp" />
+    <ClCompile Include="src\systems\anim\render\vulkan\vulkan_res\images\tam_vlk_images.cpp" />
+    <ClCompile Include="src\systems\anim\render\vulkan\vulkan_res\images\tam_vlk_samplers.cpp" />
+    <ClCompile Include="src\systems\anim\render\vulkan\vulkan_res\framebuffers\tam_vlk_framebuffers.cpp" />
+    <ClCompile Include="src\systems\anim\render\res\tam_res.cpp" />
+    <ClCompile Include="src\systems\anim\render\res\materials\tam_res_material.cpp" />
+    <ClCompile Include="src\systems\anim\render\res\material_patterns\tam_res_material_pattern.cpp" />
+    <ClCompile Include="src\systems\anim\render\res\buffers\tam_res_buffers.cpp" />
+    <ClCompile Include="src\systems\anim\render\res\shaders\tam_res_shaders.cpp" />
+    <ClCompile Include="src\systems\anim\render\res\textures\tam_res_textures.cpp" />
+    <ClCompile Include="src\systems\anim\render\res\primitives\tam_res_primitives.cpp" />
+    <ClCompile Include="src\systems\anim\render\res\models\tam_res_models.cpp" />
+    <ClCompile Include="src\systems\anim\render\res\markers\tam_res_markers.cpp" />
+    <ClCompile Include="src\systems\anim\render\res\lights\tam_res_lights.cpp" />
+    <ClCompile Include="src\systems\win\tam_win.cpp" />
+    <ClCompile Include="src\systems\win\tam_win_msg.cpp" />
+    <ClCompile Include="src\systems\win\tam_win_console.cpp" />
+    <ClCompile Include="src\units\editor\tam_bot_unit.cpp" />
+    <ClCompile Include="src\units\editor\tam_editor_unit.cpp" />
+    <ClCompile Include="src\units\editor\tam_editor_unit_point.cpp" />
+    <ClCompile Include="src\units\editor\tam_furniture_editor_unit.cpp" />
+    <ClCompile Include="src\units\editor\tam_info_editor_unit.cpp" />
+    <ClCompile Include="src\units\editor\tam_parameters_editor_unit.cpp" />
+    <ClCompile Include="src\units\editor\tam_placement_editor_unit.cpp" />
+    <ClCompile Include="src\units\editor\tam_rooms_editor_unit.cpp" />
+    <ClCompile Include="src\units\editor\tam_walls_editor.cpp" />
+    <ClCompile Include="src\units\samples\tam_sample_unit_mip_test.cpp" />
+    <ClCompile Include="src\units\samples\tam_sample_unit_sphereflake.cpp" />
+    <ClCompile Include="src\units\samples\tam_sample_unit_teapot.cpp" />
+    <ClCompile Include="src\units\samples\tam_sample_unit_VG4_fonts.cpp" />
+    <ClCompile Include="src\units\samples\tam_teapot_data.cpp" />
+    <ClCompile Include="src\units\samples\VG4\tam_sample_unit_VG4_ux_test.cpp" />
+    <ClCompile Include="src\units\samples\VG4\UX\tam_sample_unit_VG4_ux2.cpp" />
+    <ClCompile Include="src\units\tests\tam_test_unit_flat.cpp" />
+    <ClCompile Include="src\utils\ai\tam_layout.cpp" />
+    <ClCompile Include="src\utils\ai\tam_solver.cpp" />
+    <ClCompile Include="src\utils\gfx_utilities\tam_guidelines.cpp" />
+    <ClCompile Include="src\utils\image\tam_image_save.cpp" />
+    <ClCompile Include="src\utils\imgui\imgui.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\utils\imgui\imgui_draw.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\utils\imgui\imgui_impl_vulkan.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\utils\imgui\imgui_impl_win32.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\utils\imgui\imgui_spectrum.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\utils\imgui\imgui_tables.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\utils\imgui\imgui_widgets.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\utils\imgui\tam_ui.cpp" />
+    <ClCompile Include="src\utils\ollama\tam_ai.cpp" />
+    <ClCompile Include="src\utils\profiler\tam_profiler.cpp" />
+    <ClCompile Include="src\utils\profiler\tam_profiler_msg.cpp" />
+    <ClCompile Include="src\utils\image\tam_image.cpp" />
+    <ClCompile Include="src\units\tam_unit_control.cpp" />
+    <ClCompile Include="src\units\tam_unit_layout_science.cpp" />
+    <ClCompile Include="src\units\samples\tam_sample_unit_MK3.cpp" />
+    <ClCompile Include="src\units\samples\tam_sample_unit_AA4.cpp" />
+    <ClCompile Include="src\units\samples\tam_sample_unit_VN4.cpp" />
+    <ClCompile Include="src\units\samples\tam_sample_unit_IK4.cpp" />
+    <ClCompile Include="src\units\samples\tam_sample_unit_MN7.cpp" />
+    <ClCompile Include="src\units\samples\tam_sample_unit_AT7.cpp" />
+    <ClCompile Include="src\units\samples\tam_sample_unit_VG4.cpp" />
+    <ClCompile Include="src\units\tests\tam_test_unit_mth.cpp" />
+    <ClCompile Include="src\units\tests\tam_test_unit_vlk.cpp" />
+    <ClCompile Include="src\mth\mth_noise.cpp" />
+    <ClCompile Include="src\utils\tests\tam_test_matr.cpp" />
+    <ClCompile Include="src\utils\tests\tam_test_quat.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_control.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_control_bool.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_control_button.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_control_color.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_control_float.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_control_group.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_control_int.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_control_label.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_control_radio.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_control_sameline.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_control_select.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_control_separator.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_control_string.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_control_text.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_control_typewriter.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_control_user.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_fonts.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_images.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_menu.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_registry.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_styles.cpp" />
+    <ClCompile Include="src\utils\ux\tam_ux_tab.cpp" />
+    <ClCompile Include="src\utils\walls_editor\tam_walls_editor_system.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="res\tam_res.h" />
+    <ClInclude Include="src\mth\cg\mth_cg.h" />
+    <ClInclude Include="src\mth\cg\mth_cg_aabb.h" />
+    <ClInclude Include="src\mth\cg\mth_cg_bvh.h" />
+    <ClInclude Include="src\mth\cg\mth_cg_mesh.h" />
+    <ClInclude Include="src\mth\cg\mth_cg_physics.h" />
+    <ClInclude Include="src\mth\cg\mth_cg_spatial_hash.h" />
+    <ClInclude Include="src\mth\cg\mth_cg_triangles.h" />
+    <ClInclude Include="src\mth\mth_cg_triangulation.h" />
+    <ClInclude Include="src\mth\mth_ray.h" />
+    <ClInclude Include="src\systems\anim\render\res\fonts\tam_res_font.h" />
+    <ClInclude Include="src\systems\anim\render\tam_render_pipeline.h" />
+    <ClInclude Include="src\systems\anim\render\vulkan\tam_vlk_def.h" />
+    <ClInclude Include="src\systems\flat\tam_flat.h" />
+    <ClInclude Include="src\systems\flat\tam_furniture.h" />
+    <ClInclude Include="src\tam_def.h" />
+    <ClInclude Include="src\tam.h" />
+    <ClInclude Include="src\systems\tam_system.h" />
+    <ClInclude Include="src\systems\anim\tam_anim.h" />
+    <ClInclude Include="src\systems\anim\tam_units.h" />
+    <ClInclude Include="src\systems\anim\input\tam_input.h" />
+    <ClInclude Include="src\systems\anim\input\tam_timer.h" />
+    <ClInclude Include="src\systems\anim\input\tam_keyboard.h" />
+    <ClInclude Include="src\systems\anim\input\tam_mouse.h" />
+    <ClInclude Include="src\systems\anim\input\tam_joystick.h" />
+    <ClInclude Include="src\systems\anim\render\tam_render.h" />
+    <ClInclude Include="src\systems\anim\render\vulkan\tam_vlk_core.h" />
+    <ClInclude Include="src\systems\anim\render\vulkan\tam_vlk_instance.h" />
+    <ClInclude Include="src\systems\anim\render\vulkan\tam_vlk_physdevice.h" />
+    <ClInclude Include="src\systems\anim\render\vulkan\tam_vlk_device.h" />
+    <ClInclude Include="src\systems\anim\render\vulkan\tam_vlk_surface.h" />
+    <ClInclude Include="src\systems\anim\render\vulkan\tam_vlk_swapchain.h" />
+    <ClInclude Include="src\systems\anim\render\vulkan\tam_vlk_renderpass.h" />
+    <ClInclude Include="src\systems\anim\render\vulkan\vulkan_debug\tam_vulkan_debug.h" />
+    <ClInclude Include="src\systems\anim\render\vulkan\vma\vk_mem_alloc.h" />
+    <ClInclude Include="src\systems\anim\render\vulkan\vulkan_res\pipelines\tam_vlk_pipelines.h" />
+    <ClInclude Include="src\systems\anim\render\vulkan\vulkan_res\shaders\tam_vlk_shaders.h" />
+    <ClInclude Include="src\systems\anim\render\vulkan\vulkan_res\buffers\tam_vlk_buffers.h" />
+    <ClInclude Include="src\systems\anim\render\vulkan\vulkan_res\descriptors\tam_vlk_descriptors.h" />
+    <ClInclude Include="src\systems\anim\render\vulkan\vulkan_res\images\tam_vlk_images.h" />
+    <ClInclude Include="src\systems\anim\render\vulkan\vulkan_res\framebuffers\tam_vlk_framebuffers.h" />
+    <ClInclude Include="src\systems\anim\render\res\tam_res.h" />
+    <ClInclude Include="src\systems\anim\render\res\materials\tam_res_material.h" />
+    <ClInclude Include="src\systems\anim\render\res\material_patterns\tam_res_material_pattern.h" />
+    <ClInclude Include="src\systems\anim\render\res\buffers\tam_res_buffers.h" />
+    <ClInclude Include="src\systems\anim\render\res\shaders\tam_res_shaders.h" />
+    <ClInclude Include="src\systems\anim\render\res\textures\tam_res_textures.h" />
+    <ClInclude Include="src\systems\anim\render\res\primitives\tam_res_primitives.h" />
+    <ClInclude Include="src\systems\anim\render\res\models\tam_res_models.h" />
+    <ClInclude Include="src\systems\anim\render\res\markers\tam_res_markers.h" />
+    <ClInclude Include="src\systems\anim\render\res\lights\tam_res_lights.h" />
+    <ClInclude Include="src\systems\win\tam_win.h" />
+    <ClInclude Include="src\units\editor\tam_editor_unit.h" />
+    <ClInclude Include="src\units\samples\tam_teapot_data.h" />
+    <ClInclude Include="src\utils\ai\tam_layout.h" />
+    <ClInclude Include="src\utils\ai\tam_solver.h" />
+    <ClInclude Include="src\utils\gfx_utilities\tam_guidelines.h" />
+    <ClInclude Include="src\utils\imgui\imconfig.h" />
+    <ClInclude Include="src\utils\imgui\imgui.h" />
+    <ClInclude Include="src\utils\imgui\imgui_impl_vulkan.h" />
+    <ClInclude Include="src\utils\imgui\imgui_impl_win32.h" />
+    <ClInclude Include="src\utils\imgui\imgui_internal.h" />
+    <ClInclude Include="src\utils\imgui\imgui_spectrum.h" />
+    <ClInclude Include="src\utils\imgui\imstb_rectpack.h" />
+    <ClInclude Include="src\utils\imgui\imstb_textedit.h" />
+    <ClInclude Include="src\utils\imgui\imstb_truetype.h" />
+    <ClInclude Include="src\utils\ollama\tam_ai.h" />
+    <ClInclude Include="src\utils\profiler\tam_profiler.h" />
+    <ClInclude Include="src\utils\profiler\tam_profiler_font.h" />
+    <ClInclude Include="src\utils\log\tam_logger.h" />
+    <ClInclude Include="src\utils\image\tam_image.h" />
+    <ClInclude Include="src\utils\json\tam_json.h" />
+    <ClInclude Include="src\utils\json\tam_gltf.h" />
+    <ClInclude Include="src\utils\imgui\tam_ui.h" />
+    <ClInclude Include="src\mth\mth.h" />
+    <ClInclude Include="src\mth\mth_def.h" />
+    <ClInclude Include="src\mth\mth_camera.h" />
+    <ClInclude Include="src\mth\mth_quat.h" />
+    <ClInclude Include="src\mth\mth_matr.h" />
+    <ClInclude Include="src\mth\mth_vec2.h" />
+    <ClInclude Include="src\mth\mth_vec3.h" />
+    <ClInclude Include="src\mth\mth_vec4.h" />
+    <ClInclude Include="src\mth\mth_noise.h" />
+    <ClInclude Include="src\utils\tests\tam_test_system.h" />
+    <ClInclude Include="src\utils\ux\tam_ux.h" />
+    <ClInclude Include="src\utils\ux\tam_ux_control.h" />
+    <ClInclude Include="src\utils\ux\tam_ux_control_bool.h" />
+    <ClInclude Include="src\utils\ux\tam_ux_control_button.h" />
+    <ClInclude Include="src\utils\ux\tam_ux_control_color.h" />
+    <ClInclude Include="src\utils\ux\tam_ux_control_float.h" />
+    <ClInclude Include="src\utils\ux\tam_ux_control_group.h" />
+    <ClInclude Include="src\utils\ux\tam_ux_control_int.h" />
+    <ClInclude Include="src\utils\ux\tam_ux_control_label.h" />
+    <ClInclude Include="src\utils\ux\tam_ux_control_radio.h" />
+    <ClInclude Include="src\utils\ux\tam_ux_control_sameline.h" />
+    <ClInclude Include="src\utils\ux\tam_ux_control_select.h" />
+    <ClInclude Include="src\utils\ux\tam_ux_control_separator.h" />
+    <ClInclude Include="src\utils\ux\tam_ux_control_string.h" />
+    <ClInclude Include="src\utils\ux\tam_ux_control_text.h" />
+    <ClInclude Include="src\utils\ux\tam_ux_control_typewriter.h" />
+    <ClInclude Include="src\utils\ux\tam_ux_control_user.h" />
+    <ClInclude Include="src\utils\ux\tam_ux_images.h" />
+    <ClInclude Include="src\utils\ux\tam_ux_tab.h" />
+    <ClInclude Include="src\utils\walls_editor\tam_walls_editor_system.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\TAM.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\tam_logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\cgsg.asc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

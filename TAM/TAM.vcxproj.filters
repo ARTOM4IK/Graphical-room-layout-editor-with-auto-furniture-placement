@@ -1,0 +1,825 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{146a127b-b34d-40de-b772-a7a641a82477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System">
+      <UniqueIdentifier>{bf133ad6-ec99-4b7c-b1ac-b1afc2f1f1a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render">
+      <UniqueIdentifier>{9a938c3f-d44b-475b-be95-6071b577d253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Vulkan">
+      <UniqueIdentifier>{d94e5ae5-77ac-4bb7-a8ba-ea61e39663b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Vulkan\Vulkan Debug">
+      <UniqueIdentifier>{20af5322-28af-41b1-9009-9180c52a61a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Vulkan\VMA">
+      <UniqueIdentifier>{04a2556b-769c-4c7d-a3ad-b255903d9b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Vulkan\Vulkan Resources">
+      <UniqueIdentifier>{fa611366-3919-47a8-8294-99a1d3e28c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan Pipelines">
+      <UniqueIdentifier>{d52300eb-31ec-49ac-a85a-4fea2d25b60d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan Shaders">
+      <UniqueIdentifier>{2a16c981-7aea-4700-b541-c7cfef22e42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan Buffers">
+      <UniqueIdentifier>{e55240a7-1e21-4b5a-b602-aa3079930418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan Descriptors">
+      <UniqueIdentifier>{cb66d6fb-2bd6-4968-9876-63374e775dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan Images">
+      <UniqueIdentifier>{9fd52250-77a0-4e75-9416-4111ba431d5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan FrameBuffers">
+      <UniqueIdentifier>{9ad87ba7-e2c3-40e3-a1bb-70c68eac2e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Resources">
+      <UniqueIdentifier>{75442416-abc4-4185-939d-c7d6c5a749ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Resources\Materials">
+      <UniqueIdentifier>{5e7680ef-fc86-48d4-be18-682e8c72246e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Resources\Material Patterns">
+      <UniqueIdentifier>{0f66d872-107c-42f7-93ef-a723d7f22853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Resources\Buffers">
+      <UniqueIdentifier>{780e8b02-7de5-44c7-a2d1-81570f6c2e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Resources\Shaders">
+      <UniqueIdentifier>{e0ab5699-558b-4efb-8999-4a4a5d9286c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Resources\Textures">
+      <UniqueIdentifier>{53212a09-81d5-4fd7-b892-32311e3bb7bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Resources\Primitives">
+      <UniqueIdentifier>{59679177-67ab-453e-bad0-fd45aa369737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Resources\Models">
+      <UniqueIdentifier>{2df7151d-30f9-4543-9c4e-cae79cfbfaf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Resources\Markers">
+      <UniqueIdentifier>{767c62cb-19ee-4891-8a04-32da37f6f234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Resources\Lights">
+      <UniqueIdentifier>{cafdfaeb-ca01-48c2-9fef-6329cf949eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Windows Depended">
+      <UniqueIdentifier>{19fc553c-7689-4abd-912e-a203c2286bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilites">
+      <UniqueIdentifier>{7a5b44c8-4c8d-45c3-9ad7-a1f3d4574c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilites\Performance Profiler">
+      <UniqueIdentifier>{1af47cdd-737e-4350-b50f-3ccc7a98345d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilites\Image Handle">
+      <UniqueIdentifier>{e312f1c8-b3d6-4c89-88be-aada95109a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Units">
+      <UniqueIdentifier>{febdf378-2c3c-43fb-8ec4-a5e7c26a2dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Units\Samples">
+      <UniqueIdentifier>{42b07418-deae-4f4f-b2c6-2e0adbc6fad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Units\Tests">
+      <UniqueIdentifier>{13522a59-1e50-4575-8507-65f8baa12604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mathematic Support">
+      <UniqueIdentifier>{dfcd0fd8-64cd-42f7-9340-f867ff720590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Input System">
+      <UniqueIdentifier>{2866b9aa-0b9b-45e4-994b-9b5ab2a202c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilites\Debug Logger">
+      <UniqueIdentifier>{77a02fb8-6343-49c4-80a7-9369bad85b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilites\JSON Handle">
+      <UniqueIdentifier>{7e050576-fb86-4020-b87a-c7d33ba41e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilites\User Interface Support">
+      <UniqueIdentifier>{92ad1c39-bfa7-4780-8d3c-694e7e1d3a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilites\Test System">
+      <UniqueIdentifier>{9ff9991c-b7b0-4c8e-889a-9e629cd6d56d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Animation System\Render\Resources\Fonts">
+      <UniqueIdentifier>{2a469070-b7f8-4e26-a114-26fea16b3f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Units\Samples\Autotests">
+      <UniqueIdentifier>{5658c0a4-1ca2-4a47-974b-0c3ae318e970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Units\Editor">
+      <UniqueIdentifier>{5c3d181a-ee4e-4771-85ac-f0f18b93cadf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Units\Samples\VG4">
+      <UniqueIdentifier>{2673a5fc-736c-4066-914e-0b91f2022109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Units\Samples\VG4\UX Test">
+      <UniqueIdentifier>{22852060-29f3-496c-aaa7-4f827327eddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilites\User Expieience System">
+      <UniqueIdentifier>{73f7573b-9e39-49a2-9cc7-cdd6c6a42137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilites\Wall Editor">
+      <UniqueIdentifier>{10e31e8c-f26b-4638-a1b7-0984d707dcfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Flat System">
+      <UniqueIdentifier>{718a530c-8076-499f-aa85-f4590c0eec57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilites\GFX Utilities">
+      <UniqueIdentifier>{5be3829b-137a-4271-89ab-fbcd10473016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilites\User Expieience System\UX Controls">
+      <UniqueIdentifier>{f3bcfd76-93e7-4682-91e9-b1e34d3e2eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilites\Ollama">
+      <UniqueIdentifier>{2fcea528-7f62-4f86-9ae9-5588a72b63c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mathematic Support\Computation Geometry">
+      <UniqueIdentifier>{b227cb55-7621-413c-a598-e3323fcaff5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilites\AI">
+      <UniqueIdentifier>{33949ef9-9de9-4bcf-af88-0d95391380b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\tam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tam_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\tam_anim.cpp">
+      <Filter>Source Files\System\Animation System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\tam_render.cpp">
+      <Filter>Source Files\System\Animation System\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\tam_render_pipeline.cpp">
+      <Filter>Source Files\System\Animation System\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\vulkan\tam_vlk_core.cpp">
+      <Filter>Source Files\System\Animation System\Render\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\vulkan\tam_vlk_instance.cpp">
+      <Filter>Source Files\System\Animation System\Render\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\vulkan\tam_vlk_physdevice.cpp">
+      <Filter>Source Files\System\Animation System\Render\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\vulkan\tam_vlk_device.cpp">
+      <Filter>Source Files\System\Animation System\Render\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\vulkan\tam_vlk_surface.cpp">
+      <Filter>Source Files\System\Animation System\Render\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\vulkan\tam_vlk_swapchain.cpp">
+      <Filter>Source Files\System\Animation System\Render\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\vulkan\tam_vlk_renderpass.cpp">
+      <Filter>Source Files\System\Animation System\Render\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\vulkan\tam_vlk_command.cpp">
+      <Filter>Source Files\System\Animation System\Render\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\vulkan\vulkan_debug\tam_vulkan_debug.cpp">
+      <Filter>Source Files\System\Animation System\Render\Vulkan\Vulkan Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\vulkan\vma\vk_vma.cpp">
+      <Filter>Source Files\System\Animation System\Render\Vulkan\VMA</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\vulkan\vulkan_res\pipelines\tam_vlk_pipelines.cpp">
+      <Filter>Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\vulkan\vulkan_res\shaders\tam_vlk_shaders.cpp">
+      <Filter>Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\vulkan\vulkan_res\buffers\tam_vlk_buffers.cpp">
+      <Filter>Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\vulkan\vulkan_res\descriptors\tam_vlk_descriptors.cpp">
+      <Filter>Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan Descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\vulkan\vulkan_res\images\tam_vlk_images.cpp">
+      <Filter>Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan Images</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\vulkan\vulkan_res\images\tam_vlk_samplers.cpp">
+      <Filter>Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan Images</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\vulkan\vulkan_res\framebuffers\tam_vlk_framebuffers.cpp">
+      <Filter>Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan FrameBuffers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\res\tam_res.cpp">
+      <Filter>Source Files\System\Animation System\Render\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\res\materials\tam_res_material.cpp">
+      <Filter>Source Files\System\Animation System\Render\Resources\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\res\material_patterns\tam_res_material_pattern.cpp">
+      <Filter>Source Files\System\Animation System\Render\Resources\Material Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\res\buffers\tam_res_buffers.cpp">
+      <Filter>Source Files\System\Animation System\Render\Resources\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\res\shaders\tam_res_shaders.cpp">
+      <Filter>Source Files\System\Animation System\Render\Resources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\res\textures\tam_res_textures.cpp">
+      <Filter>Source Files\System\Animation System\Render\Resources\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\res\primitives\tam_res_primitives.cpp">
+      <Filter>Source Files\System\Animation System\Render\Resources\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\res\models\tam_res_models.cpp">
+      <Filter>Source Files\System\Animation System\Render\Resources\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\res\markers\tam_res_markers.cpp">
+      <Filter>Source Files\System\Animation System\Render\Resources\Markers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\res\lights\tam_res_lights.cpp">
+      <Filter>Source Files\System\Animation System\Render\Resources\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\win\tam_win.cpp">
+      <Filter>Source Files\System\Windows Depended</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\win\tam_win_msg.cpp">
+      <Filter>Source Files\System\Windows Depended</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\win\tam_win_console.cpp">
+      <Filter>Source Files\System\Windows Depended</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\profiler\tam_profiler.cpp">
+      <Filter>Source Files\Utilites\Performance Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\profiler\tam_profiler_msg.cpp">
+      <Filter>Source Files\Utilites\Performance Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\image\tam_image.cpp">
+      <Filter>Source Files\Utilites\Image Handle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\tam_unit_control.cpp">
+      <Filter>Source Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\tam_unit_layout_science.cpp">
+      <Filter>Source Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\samples\tam_sample_unit_MK3.cpp">
+      <Filter>Source Files\Units\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\samples\tam_sample_unit_AA4.cpp">
+      <Filter>Source Files\Units\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\samples\tam_sample_unit_VN4.cpp">
+      <Filter>Source Files\Units\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\samples\tam_sample_unit_IK4.cpp">
+      <Filter>Source Files\Units\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\samples\tam_sample_unit_MN7.cpp">
+      <Filter>Source Files\Units\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\samples\tam_sample_unit_AT7.cpp">
+      <Filter>Source Files\Units\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\samples\tam_sample_unit_VG4.cpp">
+      <Filter>Source Files\Units\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\tests\tam_test_unit_mth.cpp">
+      <Filter>Source Files\Units\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\tests\tam_test_unit_vlk.cpp">
+      <Filter>Source Files\Units\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mth\mth_noise.cpp">
+      <Filter>Source Files\Mathematic Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\tests\tam_test_matr.cpp">
+      <Filter>Source Files\Utilites\Test System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\tests\tam_test_quat.cpp">
+      <Filter>Source Files\Utilites\Test System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\image\tam_image_save.cpp">
+      <Filter>Source Files\Utilites\Image Handle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\anim\render\res\fonts\tam_res_font.cpp">
+      <Filter>Source Files\System\Animation System\Render\Resources\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\samples\tam_sample_unit_mip_test.cpp">
+      <Filter>Source Files\Units\Samples\Autotests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\samples\tam_sample_unit_sphereflake.cpp">
+      <Filter>Source Files\Units\Samples\Autotests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\samples\tam_sample_unit_teapot.cpp">
+      <Filter>Source Files\Units\Samples\Autotests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\samples\tam_teapot_data.cpp">
+      <Filter>Source Files\Units\Samples\Autotests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\imgui\imgui.cpp">
+      <Filter>Source Files\Utilites\User Interface Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\imgui\imgui_draw.cpp">
+      <Filter>Source Files\Utilites\User Interface Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\imgui\imgui_impl_vulkan.cpp">
+      <Filter>Source Files\Utilites\User Interface Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files\Utilites\User Interface Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\imgui\imgui_tables.cpp">
+      <Filter>Source Files\Utilites\User Interface Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\Utilites\User Interface Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\imgui\tam_ui.cpp">
+      <Filter>Source Files\Utilites\User Interface Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\editor\tam_editor_unit_point.cpp">
+      <Filter>Source Files\Units\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\samples\VG4\tam_sample_unit_VG4_ux_test.cpp">
+      <Filter>Source Files\Units\Samples\VG4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\samples\VG4\UX\tam_sample_unit_VG4_ux2.cpp">
+      <Filter>Source Files\Units\Samples\VG4\UX Test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux.cpp">
+      <Filter>Source Files\Utilites\User Expieience System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_tab.cpp">
+      <Filter>Source Files\Utilites\User Expieience System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_fonts.cpp">
+      <Filter>Source Files\Utilites\User Expieience System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_images.cpp">
+      <Filter>Source Files\Utilites\User Expieience System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_menu.cpp">
+      <Filter>Source Files\Utilites\User Expieience System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\editor\tam_walls_editor.cpp">
+      <Filter>Source Files\Units\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\walls_editor\tam_walls_editor_system.cpp">
+      <Filter>Source Files\Utilites\Wall Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\flat\tam_flat.cpp">
+      <Filter>Source Files\System\Flat System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\gfx_utilities\tam_guidelines.cpp">
+      <Filter>Source Files\Utilites\GFX Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_control_bool.cpp">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_control_button.cpp">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_control_color.cpp">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_control_float.cpp">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_control_label.cpp">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_control_sameline.cpp">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_control_select.cpp">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_control_separator.cpp">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_control_string.cpp">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\tests\tam_test_unit_flat.cpp">
+      <Filter>Source Files\Units\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\editor\tam_editor_unit.cpp">
+      <Filter>Source Files\Units\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\editor\tam_parameters_editor_unit.cpp">
+      <Filter>Source Files\Units\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\editor\tam_info_editor_unit.cpp">
+      <Filter>Source Files\Units\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\editor\tam_furniture_editor_unit.cpp">
+      <Filter>Source Files\Units\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_styles.cpp">
+      <Filter>Source Files\Utilites\User Expieience System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\imgui\imgui_spectrum.cpp">
+      <Filter>Source Files\Utilites\User Interface Support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_registry.cpp">
+      <Filter>Source Files\Utilites\User Expieience System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_control_text.cpp">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_control_user.cpp">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\flat\tan_furniture.cpp">
+      <Filter>Source Files\System\Flat System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_control_int.cpp">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\editor\tam_placement_editor_unit.cpp">
+      <Filter>Source Files\Units\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ollama\tam_ai.cpp">
+      <Filter>Source Files\Utilites\Ollama</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\editor\tam_bot_unit.cpp">
+      <Filter>Source Files\Units\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_control_typewriter.cpp">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_control_group.cpp">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_control.cpp">
+      <Filter>Source Files\Utilites\User Expieience System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ux\tam_ux_control_radio.cpp">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\editor\tam_rooms_editor_unit.cpp">
+      <Filter>Source Files\Units\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\units\samples\tam_sample_unit_VG4_fonts.cpp">
+      <Filter>Source Files\Units\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\systems\flat\tam_flat_file.cpp">
+      <Filter>Source Files\System\Flat System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ai\tam_layout.cpp">
+      <Filter>Source Files\Utilites\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\ai\tam_solver.cpp">
+      <Filter>Source Files\Utilites\AI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\tam_def.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tam.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\tam_system.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\tam_anim.h">
+      <Filter>Source Files\System\Animation System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\tam_units.h">
+      <Filter>Source Files\System\Animation System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\input\tam_input.h">
+      <Filter>Source Files\System\Animation System\Input System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\input\tam_timer.h">
+      <Filter>Source Files\System\Animation System\Input System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\input\tam_keyboard.h">
+      <Filter>Source Files\System\Animation System\Input System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\input\tam_mouse.h">
+      <Filter>Source Files\System\Animation System\Input System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\input\tam_joystick.h">
+      <Filter>Source Files\System\Animation System\Input System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\tam_render.h">
+      <Filter>Source Files\System\Animation System\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\vulkan\tam_vlk_core.h">
+      <Filter>Source Files\System\Animation System\Render\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\vulkan\tam_vlk_instance.h">
+      <Filter>Source Files\System\Animation System\Render\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\vulkan\tam_vlk_physdevice.h">
+      <Filter>Source Files\System\Animation System\Render\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\vulkan\tam_vlk_device.h">
+      <Filter>Source Files\System\Animation System\Render\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\vulkan\tam_vlk_surface.h">
+      <Filter>Source Files\System\Animation System\Render\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\vulkan\tam_vlk_swapchain.h">
+      <Filter>Source Files\System\Animation System\Render\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\vulkan\tam_vlk_renderpass.h">
+      <Filter>Source Files\System\Animation System\Render\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\vulkan\vulkan_debug\tam_vulkan_debug.h">
+      <Filter>Source Files\System\Animation System\Render\Vulkan\Vulkan Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\vulkan\vma\vk_mem_alloc.h">
+      <Filter>Source Files\System\Animation System\Render\Vulkan\VMA</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\vulkan\vulkan_res\pipelines\tam_vlk_pipelines.h">
+      <Filter>Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\vulkan\vulkan_res\shaders\tam_vlk_shaders.h">
+      <Filter>Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\vulkan\vulkan_res\buffers\tam_vlk_buffers.h">
+      <Filter>Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\vulkan\vulkan_res\descriptors\tam_vlk_descriptors.h">
+      <Filter>Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan Descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\vulkan\vulkan_res\images\tam_vlk_images.h">
+      <Filter>Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan Images</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\vulkan\vulkan_res\framebuffers\tam_vlk_framebuffers.h">
+      <Filter>Source Files\System\Animation System\Render\Vulkan\Vulkan Resources\Vulkan FrameBuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\res\tam_res.h">
+      <Filter>Source Files\System\Animation System\Render\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\res\materials\tam_res_material.h">
+      <Filter>Source Files\System\Animation System\Render\Resources\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\res\material_patterns\tam_res_material_pattern.h">
+      <Filter>Source Files\System\Animation System\Render\Resources\Material Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\res\buffers\tam_res_buffers.h">
+      <Filter>Source Files\System\Animation System\Render\Resources\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\res\shaders\tam_res_shaders.h">
+      <Filter>Source Files\System\Animation System\Render\Resources\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\res\textures\tam_res_textures.h">
+      <Filter>Source Files\System\Animation System\Render\Resources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\res\primitives\tam_res_primitives.h">
+      <Filter>Source Files\System\Animation System\Render\Resources\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\res\models\tam_res_models.h">
+      <Filter>Source Files\System\Animation System\Render\Resources\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\res\markers\tam_res_markers.h">
+      <Filter>Source Files\System\Animation System\Render\Resources\Markers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\res\lights\tam_res_lights.h">
+      <Filter>Source Files\System\Animation System\Render\Resources\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\win\tam_win.h">
+      <Filter>Source Files\System\Windows Depended</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\profiler\tam_profiler.h">
+      <Filter>Source Files\Utilites\Performance Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\profiler\tam_profiler_font.h">
+      <Filter>Source Files\Utilites\Performance Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\log\tam_logger.h">
+      <Filter>Source Files\Utilites\Debug Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\image\tam_image.h">
+      <Filter>Source Files\Utilites\Image Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\json\tam_json.h">
+      <Filter>Source Files\Utilites\JSON Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\json\tam_gltf.h">
+      <Filter>Source Files\Utilites\JSON Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\imgui\tam_ui.h">
+      <Filter>Source Files\Utilites\User Interface Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth.h">
+      <Filter>Source Files\Mathematic Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_def.h">
+      <Filter>Source Files\Mathematic Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_camera.h">
+      <Filter>Source Files\Mathematic Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_quat.h">
+      <Filter>Source Files\Mathematic Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_matr.h">
+      <Filter>Source Files\Mathematic Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec2.h">
+      <Filter>Source Files\Mathematic Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec3.h">
+      <Filter>Source Files\Mathematic Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec4.h">
+      <Filter>Source Files\Mathematic Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_noise.h">
+      <Filter>Source Files\Mathematic Support</Filter>
+    </ClInclude>
+    <ClInclude Include="res\tam_res.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\tests\tam_test_system.h">
+      <Filter>Source Files\Utilites\Test System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\vulkan\tam_vlk_def.h">
+      <Filter>Source Files\System\Animation System\Render\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\res\fonts\tam_res_font.h">
+      <Filter>Source Files\System\Animation System\Render\Resources\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="src\units\samples\tam_teapot_data.h">
+      <Filter>Source Files\Units\Samples\Autotests</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\anim\render\tam_render_pipeline.h">
+      <Filter>Source Files\System\Animation System\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\imgui\imconfig.h">
+      <Filter>Source Files\Utilites\User Interface Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\imgui\imgui.h">
+      <Filter>Source Files\Utilites\User Interface Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\imgui\imgui_impl_vulkan.h">
+      <Filter>Source Files\Utilites\User Interface Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\imgui\imgui_impl_win32.h">
+      <Filter>Source Files\Utilites\User Interface Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\imgui\imgui_internal.h">
+      <Filter>Source Files\Utilites\User Interface Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\imgui\imstb_rectpack.h">
+      <Filter>Source Files\Utilites\User Interface Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\imgui\imstb_textedit.h">
+      <Filter>Source Files\Utilites\User Interface Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\imgui\imstb_truetype.h">
+      <Filter>Source Files\Utilites\User Interface Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_ray.h">
+      <Filter>Source Files\Mathematic Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux.h">
+      <Filter>Source Files\Utilites\User Expieience System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux_control.h">
+      <Filter>Source Files\Utilites\User Expieience System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux_tab.h">
+      <Filter>Source Files\Utilites\User Expieience System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux_images.h">
+      <Filter>Source Files\Utilites\User Expieience System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\walls_editor\tam_walls_editor_system.h">
+      <Filter>Source Files\Utilites\Wall Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\flat\tam_flat.h">
+      <Filter>Source Files\System\Flat System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\gfx_utilities\tam_guidelines.h">
+      <Filter>Source Files\Utilites\GFX Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux_control_bool.h">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux_control_button.h">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux_control_color.h">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux_control_float.h">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux_control_label.h">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux_control_sameline.h">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux_control_select.h">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux_control_separator.h">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux_control_string.h">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\units\editor\tam_editor_unit.h">
+      <Filter>Source Files\Units\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\imgui\imgui_spectrum.h">
+      <Filter>Source Files\Utilites\User Interface Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux_control_text.h">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux_control_user.h">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\systems\flat\tam_furniture.h">
+      <Filter>Source Files\System\Flat System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux_control_int.h">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ollama\tam_ai.h">
+      <Filter>Source Files\Utilites\Ollama</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux_control_typewriter.h">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux_control_group.h">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ux\tam_ux_control_radio.h">
+      <Filter>Source Files\Utilites\User Expieience System\UX Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\cg\mth_cg.h">
+      <Filter>Source Files\Mathematic Support\Computation Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\cg\mth_cg_aabb.h">
+      <Filter>Source Files\Mathematic Support\Computation Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\cg\mth_cg_bvh.h">
+      <Filter>Source Files\Mathematic Support\Computation Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\cg\mth_cg_mesh.h">
+      <Filter>Source Files\Mathematic Support\Computation Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\cg\mth_cg_physics.h">
+      <Filter>Source Files\Mathematic Support\Computation Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\cg\mth_cg_spatial_hash.h">
+      <Filter>Source Files\Mathematic Support\Computation Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\cg\mth_cg_triangles.h">
+      <Filter>Source Files\Mathematic Support\Computation Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_cg_triangulation.h">
+      <Filter>Source Files\Mathematic Support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ai\tam_layout.h">
+      <Filter>Source Files\Utilites\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\ai\tam_solver.h">
+      <Filter>Source Files\Utilites\AI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\TAM.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\tam_logo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\cgsg.asc">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

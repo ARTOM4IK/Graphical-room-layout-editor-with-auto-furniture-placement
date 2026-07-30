@@ -1,0 +1,293 @@
+{
+  "name": "Z:\TAM\TAM\bin\flats\flat01.flat",
+  "rooms": [
+    {
+      "name": "Bathroom",
+      "points": [
+        8,
+        9,
+        4,
+        7
+      ]
+    },
+    {
+      "name": "Dinning room",
+      "points": [
+        6,
+        0,
+        10,
+        5
+      ]
+    },
+    {
+      "name": "Hall",
+      "points": [
+        8,
+        7,
+        5,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "name": "Kitchen",
+      "points": [
+        13,
+        14,
+        2,
+        9,
+        8
+      ]
+    },
+    {
+      "name": "Living room",
+      "points": [
+        5,
+        7,
+        4,
+        3,
+        6
+      ]
+    },
+    {
+      "name": "Wardrobe",
+      "points": [
+        11,
+        10,
+        1,
+        14,
+        13,
+        12
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "points": [
+        3,
+        6
+      ],
+      "type": "eWINDOW",
+      "window height": 1.041,
+      "window width": 4.656
+    },
+    {
+      "points": [
+        6,
+        0
+      ],
+      "type": "eWALL"
+    },
+    {
+      "door height": 0.6,
+      "door width": 0.985,
+      "points": [
+        5,
+        6
+      ],
+      "type": "eDOOR"
+    },
+    {
+      "door height": 0.6,
+      "door width": 0.826,
+      "points": [
+        4,
+        7
+      ],
+      "type": "eDOOR"
+    },
+    {
+      "door height": 0.6,
+      "door width": 0.765,
+      "points": [
+        7,
+        5
+      ],
+      "type": "eDOOR"
+    },
+    {
+      "points": [
+        2,
+        9
+      ],
+      "type": "eWINDOW",
+      "window height": 0.859,
+      "window width": 1.145
+    },
+    {
+      "points": [
+        9,
+        4
+      ],
+      "type": "eWALL"
+    },
+    {
+      "points": [
+        7,
+        8
+      ],
+      "type": "eWALL"
+    },
+    {
+      "door height": 0.6,
+      "door width": 0.639,
+      "points": [
+        8,
+        9
+      ],
+      "type": "eDOOR"
+    },
+    {
+      "points": [
+        0,
+        10
+      ],
+      "type": "eWALL"
+    },
+    {
+      "points": [
+        10,
+        1
+      ],
+      "type": "eWALL"
+    },
+    {
+      "points": [
+        5,
+        11
+      ],
+      "type": "eWALL"
+    },
+    {
+      "door height": 0.6,
+      "door width": 1.065,
+      "points": [
+        11,
+        10
+      ],
+      "type": "eDOOR"
+    },
+    {
+      "points": [
+        11,
+        12
+      ],
+      "type": "eWALL"
+    },
+    {
+      "points": [
+        12,
+        13
+      ],
+      "type": "eWALL"
+    },
+    {
+      "door height": 0.6,
+      "door width": 1.092,
+      "points": [
+        13,
+        8
+      ],
+      "type": "eDOOR"
+    },
+    {
+      "door height": 0.6,
+      "door width": 1.012,
+      "points": [
+        1,
+        14
+      ],
+      "type": "eDOOR"
+    },
+    {
+      "points": [
+        14,
+        2
+      ],
+      "type": "eWALL"
+    },
+    {
+      "door height": 0.6,
+      "door width": 0.905,
+      "points": [
+        13,
+        14
+      ],
+      "type": "eDOOR"
+    },
+    {
+      "points": [
+        4,
+        3
+      ],
+      "type": "eWINDOW",
+      "window height": 0.937,
+      "window width": 3.379
+    }
+  ],
+  "wall_height": 2.692,
+  "wall_points": [
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      -7
+    ],
+    [
+      -5,
+      -7
+    ],
+    [
+      -5,
+      5
+    ],
+    [
+      -5,
+      -0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      -4
+    ],
+    [
+      -5,
+      -4
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      -4
+    ],
+    [
+      1,
+      -4
+    ],
+    [
+      1,
+      -7
+    ]
+  ],
+  "wall_width": 0.281
+}

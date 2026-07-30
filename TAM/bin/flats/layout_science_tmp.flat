@@ -1,0 +1,844 @@
+{
+  "modelList": [
+    {
+      "fileName": "C:/Users/temk/Desktop/DiskQ/2025-26/TAM/assets/Furnitures/Bath/bath_with_sink/scene.gltf",
+      "maxBB": [
+        0.398821,
+        0.9,
+        0.995753
+      ],
+      "minBB": [
+        -0.398821,
+        1.80451e-09,
+        -0.995753
+      ],
+      "name": "Bath",
+      "offset": [
+        0.884519,
+        -0.117005,
+        -5.35282
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1.13949,
+      "size": [
+        0.797641,
+        0.9,
+        1.99151
+      ]
+    },
+    {
+      "fileName": "C:/Users/temk/Desktop/DiskQ/2025-26/TAM/assets/Furnitures/Beds/BunkBed/scene.gltf",
+      "maxBB": [
+        1.05315,
+        1.79205,
+        0.46752
+      ],
+      "minBB": [
+        -1.05315,
+        0,
+        -0.46752
+      ],
+      "name": "Bunk Bed",
+      "offset": [
+        -1.19209e-07,
+        -2.38419e-07,
+        -0.00492132
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "size": [
+        2.1063,
+        1.79205,
+        0.935039
+      ]
+    },
+    {
+      "fileName": "C:/Users/temk/Desktop/DiskQ/2025-26/TAM/assets/Furnitures/Chairs/ChairWood3/scene.gltf",
+      "maxBB": [
+        0.187462,
+        0.840002,
+        0.215377
+      ],
+      "minBB": [
+        -0.187462,
+        -7.89237e-09,
+        -0.215377
+      ],
+      "name": "ChairWood3",
+      "offset": [
+        6.37919e-05,
+        -1.16229e-06,
+        0.000253737
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "scale": 2.16156,
+      "size": [
+        0.374923,
+        0.840002,
+        0.430754
+      ]
+    },
+    {
+      "fileName": "C:/Users/temk/Desktop/DiskQ/2025-26/TAM/assets/Furnitures/Divans/modern_sofa/scene.gltf",
+      "maxBB": [
+        1,
+        0.6017,
+        0.391831
+      ],
+      "minBB": [
+        -1,
+        0,
+        -0.391831
+      ],
+      "name": "Modern Sofa",
+      "offset": [
+        0,
+        0.30085,
+        0
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "size": [
+        2,
+        0.6017,
+        0.783662
+      ]
+    },
+    {
+      "fileName": "C:/Users/temk/Desktop/DiskQ/2025-26/TAM/assets/Furnitures/Bath/shower/scene.gltf",
+      "maxBB": [
+        0.486378,
+        1.97,
+        0.522596
+      ],
+      "minBB": [
+        -0.486378,
+        -1.49012e-08,
+        -0.522596
+      ],
+      "name": "Shower",
+      "offset": [
+        -1.51992e-06,
+        1.19209e-07,
+        0.0362159
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "scale": 0.00483644,
+      "size": [
+        0.972757,
+        1.97,
+        1.04519
+      ]
+    },
+    {
+      "fileName": "C:/Users/temk/Desktop/DiskQ/2025-26/TAM/assets/Furnitures/Bath/sink/scene.gltf",
+      "maxBB": [
+        0.5,
+        1.4029,
+        0.374107
+      ],
+      "minBB": [
+        -0.5,
+        0.661366,
+        -0.374107
+      ],
+      "name": "Sink",
+      "offset": [
+        0,
+        1.02,
+        -2.98023e-08
+      ],
+      "rotate": [
+        0,
+        180,
+        0
+      ],
+      "scale": 1.51127,
+      "size": [
+        1,
+        0.741538,
+        0.748215
+      ]
+    },
+    {
+      "fileName": "C:/Users/temk/Desktop/DiskQ/2025-26/TAM/assets/Furnitures/Chairs/VitraEamesPlasticChair/scene.gltf",
+      "maxBB": [
+        0.31325,
+        1.08965,
+        0.353374
+      ],
+      "minBB": [
+        -0.313275,
+        3.47561e-05,
+        -0.369608
+      ],
+      "name": "VitraEamesPlasticChair",
+      "offset": [
+        5.85615e-05,
+        -0.000165015,
+        0.0385251
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "size": [
+        0.626525,
+        1.08962,
+        0.722982
+      ]
+    },
+    {
+      "fileName": "C:/Users/temk/Desktop/DiskQ/2025-26/TAM/assets/Furnitures/Bath/modern_clothes_dryer/scene.gltf",
+      "maxBB": [
+        0.310699,
+        0.8,
+        0.291654
+      ],
+      "minBB": [
+        -0.310699,
+        -7.00201e-17,
+        -0.291654
+      ],
+      "name": "Washer",
+      "offset": [
+        0.00464365,
+        0,
+        0.0237748
+      ],
+      "rotate": [
+        0,
+        -90,
+        0
+      ],
+      "scale": 0.00104731,
+      "size": [
+        0.621398,
+        0.8,
+        0.583309
+      ]
+    }
+  ],
+  "name": "C:/Users/temk/Desktop/DiskQ/2025-26/TAM/assets/flat03_fixdoors.flat",
+  "rooms": [
+    {
+      "floor_scale": 1,
+      "floor_texture": "",
+      "furniture": [
+        {
+          "modelName": "Bath",
+          "modelPlaces": [
+            {
+              "position": [
+                -1.5,
+                0,
+                -2.85
+              ],
+              "rotationY": 0
+            }
+          ]
+        },
+        {
+          "modelName": "Shower",
+          "modelPlaces": [
+            {
+              "position": [
+                -1.7,
+                0,
+                -0.7
+              ],
+              "rotationY": 0
+            }
+          ]
+        },
+        {
+          "modelName": "Sink",
+          "modelPlaces": [
+            {
+              "position": [
+                -4.3,
+                0,
+                -0.5
+              ],
+              "rotationY": 180
+            }
+          ]
+        },
+        {
+          "modelName": "Washer",
+          "modelPlaces": [
+            {
+              "position": [
+                -4.55,
+                0,
+                -2
+              ],
+              "rotationY": 90
+            }
+          ]
+        }
+      ],
+      "name": "Bathroom",
+      "points": [
+        7,
+        4,
+        9,
+        8
+      ],
+      "textures": [
+        "Default wallpaper"
+      ],
+      "wallpaper_scale": 1,
+      "walls_color": [
+        0.6,
+        0.6,
+        0.55
+      ]
+    },
+    {
+      "floor_scale": 1,
+      "floor_texture": "",
+      "furniture": [
+        {
+          "modelName": "ChairWood3",
+          "modelPlaces": [
+            {
+              "position": [
+                3,
+                0,
+                2.5
+              ],
+              "rotationY": 0
+            },
+            {
+              "position": [
+                3,
+                0,
+                1.5
+              ],
+              "rotationY": 0
+            },
+            {
+              "position": [
+                3,
+                0,
+                0.5
+              ],
+              "rotationY": 0
+            },
+            {
+              "position": [
+                2,
+                0,
+                2.5
+              ],
+              "rotationY": -90
+            },
+            {
+              "position": [
+                2,
+                0,
+                1.5
+              ],
+              "rotationY": 90
+            },
+            {
+              "position": [
+                2,
+                0,
+                0.5
+              ],
+              "rotationY": 18
+            },
+            {
+              "position": [
+                4,
+                0,
+                2.5
+              ],
+              "rotationY": 30
+            },
+            {
+              "position": [
+                4,
+                0,
+                1.5
+              ],
+              "rotationY": 102
+            },
+            {
+              "position": [
+                4,
+                0,
+                0.5
+              ],
+              "rotationY": -47
+            }
+          ]
+        }
+      ],
+      "name": "Dinning room",
+      "points": [
+        5,
+        10,
+        0,
+        6
+      ],
+      "textures": [
+        "Default wallpaper"
+      ],
+      "wallpaper_scale": 1,
+      "walls_color": [
+        0.6,
+        0.6,
+        0.55
+      ]
+    },
+    {
+      "floor_scale": 1,
+      "floor_texture": "",
+      "furniture": [
+      ],
+      "name": "Hall",
+      "points": [
+        13,
+        12,
+        11,
+        5,
+        7,
+        8
+      ],
+      "textures": [
+        "Default wallpaper"
+      ],
+      "wallpaper_scale": 1,
+      "walls_color": [
+        0.6,
+        0.6,
+        0.55
+      ]
+    },
+    {
+      "floor_scale": 1,
+      "floor_texture": "",
+      "furniture": [
+        {
+          "modelName": "Modern Sofa",
+          "modelPlaces": [
+            {
+              "position": [
+                -1.8,
+                0,
+                -5.2
+              ],
+              "rotationY": 180
+            }
+          ]
+        }
+      ],
+      "name": "Kitchen",
+      "points": [
+        8,
+        9,
+        2,
+        14,
+        13
+      ],
+      "textures": [
+        "Default wallpaper"
+      ],
+      "wallpaper_scale": 1,
+      "walls_color": [
+        0.6,
+        0.6,
+        0.55
+      ]
+    },
+    {
+      "floor_scale": 1,
+      "floor_texture": "",
+      "furniture": [
+        {
+          "modelName": "Bunk Bed",
+          "modelPlaces": [
+            {
+              "position": [
+                -1.8,
+                0,
+                2
+              ],
+              "rotationY": 0
+            },
+            {
+              "position": [
+                -1.8,
+                0,
+                3.5
+              ],
+              "rotationY": 30
+            }
+          ]
+        }
+      ],
+      "name": "Living room",
+      "points": [
+        6,
+        3,
+        4,
+        7,
+        5
+      ],
+      "textures": [
+        "Default wallpaper"
+      ],
+      "wallpaper_scale": 1,
+      "walls_color": [
+        0.6,
+        0.6,
+        0.55
+      ]
+    },
+    {
+      "floor_scale": 1,
+      "floor_texture": "",
+      "furniture": [
+        {
+          "modelName": "VitraEamesPlasticChair",
+          "modelPlaces": [
+            {
+              "position": [
+                2.66667,
+                0,
+                -2.66667
+              ],
+              "rotationY": 90
+            },
+            {
+              "position": [
+                2.66667,
+                0,
+                -3.66667
+              ],
+              "rotationY": 90
+            },
+            {
+              "position": [
+                2.66667,
+                0,
+                -1.66667
+              ],
+              "rotationY": 90
+            },
+            {
+              "position": [
+                2.66667,
+                0,
+                -0.66667
+              ],
+              "rotationY": 90
+            },
+            {
+              "position": [
+                1.66667,
+                0,
+                -4.66667
+              ],
+              "rotationY": 180
+            }
+          ]
+        }
+      ],
+      "name": "Wardrobe",
+      "points": [
+        12,
+        13,
+        14,
+        1,
+        10,
+        11
+      ],
+      "textures": [
+        "Default wallpaper"
+      ],
+      "wallpaper_scale": 1,
+      "walls_color": [
+        0.6,
+        0.6,
+        0.55
+      ]
+    }
+  ],
+  "scheme": {
+    "rotate": 0,
+    "scale": 3,
+    "texture": "",
+    "translation": [
+      0,
+      0,
+      0
+    ]
+  },
+  "segments": [
+    {
+      "points": [
+        3,
+        6
+      ],
+      "type": "eWINDOW",
+      "window bottom offset": 0.8,
+      "window left offset": 0.8,
+      "window right offset": 0.8,
+      "window top offset": 0.8
+    },
+    {
+      "points": [
+        6,
+        0
+      ],
+      "type": "eWALL"
+    },
+    {
+      "door height": 1.915,
+      "door width": 0.826,
+      "points": [
+        4,
+        7
+      ],
+      "type": "eDOOR"
+    },
+    {
+      "door height": 1.915,
+      "door width": 0.765,
+      "points": [
+        7,
+        5
+      ],
+      "type": "eDOOR"
+    },
+    {
+      "points": [
+        2,
+        9
+      ],
+      "type": "eWINDOW",
+      "window bottom offset": 0.8,
+      "window left offset": 0.8,
+      "window right offset": 0.8,
+      "window top offset": 0.8
+    },
+    {
+      "points": [
+        9,
+        4
+      ],
+      "type": "eWALL"
+    },
+    {
+      "points": [
+        7,
+        8
+      ],
+      "type": "eWALL"
+    },
+    {
+      "door height": 1.945,
+      "door width": 0.639,
+      "points": [
+        8,
+        9
+      ],
+      "type": "eDOOR"
+    },
+    {
+      "points": [
+        0,
+        10
+      ],
+      "type": "eWALL"
+    },
+    {
+      "points": [
+        10,
+        1
+      ],
+      "type": "eWALL"
+    },
+    {
+      "points": [
+        5,
+        11
+      ],
+      "type": "eWALL"
+    },
+    {
+      "door height": 1.945,
+      "door width": 1.065,
+      "points": [
+        11,
+        10
+      ],
+      "type": "eDOOR"
+    },
+    {
+      "points": [
+        11,
+        12
+      ],
+      "type": "eWALL"
+    },
+    {
+      "points": [
+        12,
+        13
+      ],
+      "type": "eWALL"
+    },
+    {
+      "door height": 1.945,
+      "door width": 1.092,
+      "points": [
+        13,
+        8
+      ],
+      "type": "eDOOR"
+    },
+    {
+      "door height": 1.915,
+      "door width": 1.012,
+      "points": [
+        1,
+        14
+      ],
+      "type": "eDOOR"
+    },
+    {
+      "points": [
+        14,
+        2
+      ],
+      "type": "eWALL"
+    },
+    {
+      "door height": 1.935,
+      "door width": 0.905,
+      "points": [
+        13,
+        14
+      ],
+      "type": "eDOOR"
+    },
+    {
+      "points": [
+        4,
+        3
+      ],
+      "type": "eWINDOW",
+      "window bottom offset": 0.8,
+      "window left offset": 0.8,
+      "window right offset": 0.8,
+      "window top offset": 0.8
+    },
+    {
+      "door height": 1.916,
+      "door width": 0.985,
+      "points": [
+        5,
+        6
+      ],
+      "type": "eDOOR"
+    }
+  ],
+  "wall_height": 2.692,
+  "wall_points": [
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      -7
+    ],
+    [
+      -5,
+      -7
+    ],
+    [
+      -5,
+      5
+    ],
+    [
+      -5,
+      -0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      -4
+    ],
+    [
+      -5,
+      -4
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      -4
+    ],
+    [
+      1,
+      -4
+    ],
+    [
+      1,
+      -7
+    ],
+    [
+      2.19372,
+      1.83474
+    ]
+  ],
+  "wall_width": 0.281,
+  "wallpapers": {
+    "Default wallpaper": "Default wallpaper"
+  }
+}
