@@ -180,74 +180,10 @@ INT WINAPI WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance,
     tam::logger::out << tam::logger::SetColorStr(0xFFAA00)  << "Img::Exc unknown\n" << tam::logger::SetDefStr();
   }
 
-  // Window class register
-  ///WNDCLASS wc {};
-  ///CHAR MainWindowClassName[] = "CGSG-TAM Project Window Class";
-  ///CHAR MainWindowTitle[] = "CGSG-TAM Project :: CGSG'Sr'2025";
-  ///
-  ///wc.lpfnWndProc = TAM_MainWindowFunc;
-  ///wc.hInstance = hInstance;
-  ///wc.lpszClassName = MainWindowClassName;
-  ///wc.hCursor = LoadCursor(nullptr, IDC_ARROW);
-  ///wc.hIcon = LoadIcon(hInstance, (CHAR *)TAM_IDI_LOGO);
-
-  ///RegisterClass(&wc);
-
-  ///// Создание окна
-  ///HWND hWnd = CreateWindow(MainWindowClassName,
-  ///  MainWindowTitle,
-  ///  WS_OVERLAPPEDWINDOW,
-  ///  CW_USEDEFAULT, CW_USEDEFAULT, 800, 600,
-  ///  nullptr, nullptr, hInstance, nullptr);
-  ///if (hWnd == nullptr)
-  ///  return 0;
-
-  // Vulkan init here: tam::vlk::Create(hWnd);
-  //ShowWindow(hWnd, CmdShow);
-
-  tam::logger::info << "Vulkan init start";
-  //try
-  //{
-  //  tam::vlk::core Andrew;
-  //  Andrew.Create(hWnd, 102, 47);
-  //}
-  //catch ( std::exception &Ex )
-  //{
-  //  tam::logger::out << "Exc:" << Ex.what() << "\n";
-  //}
-  //catch ( ... )
-  //{
-  //  tam::logger::out << "Exc unknown\n";
-  //}
-  tam::logger::info << "Vulkan init end";
-
-  // Main message loop
-  //MSG msg {};
-  //while (TRUE)
-  //{
-  //  if (PeekMessage(&msg, nullptr, 0, 0, PM_REMOVE))
-  //  {
-  //    if (msg.message == WM_QUIT)
-  //      break;
-  //    TranslateMessage(&msg);
-  //    DispatchMessage(&msg);
-  //  }
-  //  // Vulkan render here
-  //}
-  //// Vulkan deinit here: tam::vlk::Destroy();
-  //MessageBox(NULL, "Fin", "TAM", MB_ICONINFORMATION | MB_OK);
-
   tam::anim MyAnim;
   MyAnim.win::Create();
-  //MyAnim << "AT7 test unit" << "Control" << "FontTest" << "MipTest";
-  MyAnim << "Control"; // << "Garniture setting test unit" << "VG4 ux test"; // << "AT7 test unit" << "MipTest" << "Teapot" << "FurnitureEditor"; // "MipTest" << "Teapot"; // "Sphereflake"; // "Teapot"; // "Sphereflake" /*<< "Teapot" << "MipTest"
-  //MyAnim << "TestMatr";
-  //if (GetEnvironmentVariableA("TAM_LAYOUT_SCIENCE", nullptr, 0) > 0)
-  //  MyAnim << "Layout science unit";
-  //else
-  //  MyAnim << "Editor unit";
-  MyAnim << "Layout science unit";
-  //MyAnim << "VG4 editor dispatcher";
+  MyAnim << "Control";
+  MyAnim << "Editor unit";
   MyAnim.Run();
 
   return 30;

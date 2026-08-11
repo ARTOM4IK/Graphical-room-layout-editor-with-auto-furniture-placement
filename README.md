@@ -12,6 +12,17 @@ Interactive 2D/3D interior design tool with a layout solver that automatically a
 
 ---
 
+## Important Notes
+
+This repository is a **mirror** of a project originally developed in a private Perforce repository. As such:
+
+- **Commit history** – All commits remain in the original Perforce repository. The author will attempt to export the full history at a later date.
+- **Missing files** – External library binaries and the `bin/` folder containing shaders, textures, and models are **not included** in this repository. The project will not build or run without these files.
+- **Experimental status** – This is a research/demonstration project, not a production-ready engine. It is provided for educational and reference purposes only.
+- **No copying** – The code and assets are proprietary. Please refer to the license section below.
+
+---
+
 ## Key Features
 
 - **Interactive floor plan editor** – point & segment wall editing, room creation from polygons, procedural geometry with configurable thickness and height, doors and windows, undo/redo.
