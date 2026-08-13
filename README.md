@@ -20,7 +20,7 @@ This repository is a **mirror** of a project originally developed in a private P
 - **Missing files** – External library binaries and the `bin/` folder containing shaders, textures, and models are **not included** in this repository. The project will not build or run without these files.
 - **Experimental status** – This is a research/demonstration project, not a production-ready engine. It is provided for educational and reference purposes only.
 - **No copying** – The code and assets are proprietary. Please refer to the license section below.
-
+- **To overview project** - watch the video: https://youtu.be/tCcxkZN85MM
 ---
 
 ## Key Features
